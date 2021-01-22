@@ -6,7 +6,9 @@ namespace GenericsIntro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MyList<string> sehirler = new MyList<string>();
+            sehirler.Add("Ankara");
+
         }
     }
 }

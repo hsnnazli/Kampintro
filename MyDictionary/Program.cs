@@ -7,15 +7,12 @@ namespace MyDictionary
     {
         static void Main(string[] args)
         {
-            Dictionary<int, string> plakail = new Dictionary<int, string>();
+            MyDictionary<int, string> plakail = new MyDictionary<int, string>();
+        
             plakail.Add(06, "Ankara");
             plakail.Add(34, "İstanbul");
 
-            foreach (var item in plakail)
-            {
-                Console.WriteLine(item);
-            }
-            Console.ReadLine();
+
         }
     }
 }

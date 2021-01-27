@@ -26,6 +26,8 @@ namespace OOP2
             MusteriManager musteriManager = new MusteriManager();
             musteriManager.Ekle(musteri1);
             musteriManager.Ekle(musteri2);
+
+            Console.ReadLine();
 ;            
         }
     }
